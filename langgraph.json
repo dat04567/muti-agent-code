@@ -1,0 +1,10 @@
+{
+  "dependencies": ["."],
+  "graphs": {
+    "simple_agent": "./src/react_agent/simple_graph.py:create_graph_for_studio"
+  },
+  "env": ".env",
+  "mcp": {
+    "gateway_url": "http://localhost:8808"
+  }
+}

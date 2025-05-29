@@ -1,0 +1,22 @@
+{
+  "mcp": {
+    "servers": {
+      "mcp-server-commands": {
+        "command": "npx",
+        "args": ["mcp-server-commands"]
+      },
+      "filesystem": {
+        "command": "npx",
+        "args": ["-y", "@modelcontextprotocol/server-filesystem", "/Users/mac/Documents/cuoiKyNLP"]
+      },
+      "github": {
+        "command": "npx",
+        "args": ["-y", "@modelcontextprotocol/server-github"],
+        "env": {
+          "GITHUB_PERSONAL_ACCESS_TOKEN": "your_github_token_here",
+          "GITHUB_REPOSITORY": "dat04567/muti-agent-code"
+        }
+      }
+    }
+  }
+}
